@@ -4,7 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
-function About() {
+function Work() {
   return (
     <div>
       <Hero>
@@ -24,12 +24,15 @@ function About() {
             <p>
       Thanks for stopping by! I am a certified full-stack software engineer from Northwestern University. With my experience in business and my certificate in Web Development, I have found a true passion in finding ways to use the internet to create profits and enjoyment for everyone involved. Please take a look through some of my work and contact me with any questions!
             </p>
+        {/* <h2>Fridge Foodie</h2> */}
  
           </Col>
         </Row>
+
       </Container>
     </div>
   );
 }
 
-export default About;
+export default Work;
+
